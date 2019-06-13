@@ -5,91 +5,63 @@
   <meta content="ie=edge" http-equiv="x-ua-compatible"/>
   <link href="reset.css" rel="stylesheet"/>
   <link href="styles.css" rel="stylesheet"/>
-  <title>Document</title>
+  <title>Apple</title>
 </head>
 <body>
 
-<nav>
-  <ul id="globalnav" role="navigation">
-    <li id="gn-apple">
-      <a href="#"><span>Apple</span></a>
-    </li>
-    <li id="gn-store">
-      <a href="#"><span>Store</span></a>
-    </li>
-    <li id="gn-mac">
-      <a href="#"><span>Mac</span></a>
-    </li>
-    <li id="gn-ipod">
-      <a href="#"><span>iPod</span></a>
-    </li>
-    <li id="gn-iphone">
-      <a href="#"><span>iPhone</span></a>
-    </li>
-    <li id="gn-ipad">
-      <a href="#"><span>iPad</span></a>
-    </li>
-    <li id="gn-itunes">
-      <a href="#"><span>iTunes</span></a>
-    </li>
-    <li id="gn-support">
-      <a href="#"><span>Support</span></a>
-    </li>
-  </ul>
-
-  <div id="gn-search">
+<nav id="main-nav" >
+  <div id="main-nav-links">
+    <a href="#">Apple</a>
+    <a href="#">Store</a>
+    <a href="#">Mac</a>
+    <a href="#">iPod</a>
+    <a href="#">iPhone</a>
+    <a href="#">iPad</a>
+    <a href="#">iTunes</a>
+    <a href="#">Support</a>
+  </div>
+  <div id="main-nav-search">
     <form action="#" method="get">
-      <div class="gn-search-label">
-        <label for="gn-search-text">Search</label>
-        <input id="gn-search-text" type="text"/>
+      <div id="search">
+        <label for="search-text">Search</label>
+        <input id="search-text" type="text"/>
       </div>
     </form>
-
     <!-- <div id="gn-search-icon"> -->
   </div>
 </nav>
 
 <section id="hero">
-  <header class="header">
-    <h1 class="title">
+  <header>
+    <h1>
       <a href="#">What will your verse be?</a>
     </h1>
-    <h2 class="subtitle">
+    <h2>
       <a href="#">Everyone has something to share. See how people are using iPad in their unique ways to add to the world’s story."</a>
     </h2>
-    <div class="call-to-action">
+    <div id="cta">
       <a href="#">Watch the “Your Verse” film and explore the stories"</a>
     </div>
   </header>
 </section>
 
 <aside id="promos">
-  <ul>
-    <li>
-      <a class="promo1" href="#">
-        <img alt="iPhone 5s. Forward thinking." src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s_2x.jpg"/>
-      </a>
-    </li>
-    <li>
-      <a class="promo2" href="#">
-        <img alt="iPhone 5c. For the colorful." src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c_2x.jpg"/>
-      </a>
-    </li>
-    <li>
-      <a class="promo3" href="#">
-        <img alt="Happy Birthday, Mac. Explore 30 years of innovation on the Mac." src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years_2x.jpg"/>
-      </a>
-    </li>
-    <li>
-      <a class="promo4" href="#"
-      <img alt="Supplier Responsibility The latest results of our worldwide efforts." src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility_2x.jpg"/>
-      </a>
-    </li>
-  </ul>
+  <a href="#" class="promo1">
+    <img alt="iPhone 5s. Forward thinking." src=""/>
+  </a>
+  <a href="#" class="promo2">
+    <img alt="iPhone 5c. For the colorful." src=""/>
+  </a>
+  <a href="#" class="promo3">
+    <img alt="Happy Birthday, Mac. Explore 30 years of innovation on the Mac." src=""/>
+  </a>
+  <a href="#" class="promo4">
+    <img alt="Supplier Responsibility The latest results of our worldwide efforts." src=""/>
+  </a>
 </aside>
 
 <footer>
-  <section>
+  <section id="footer-top">
       <p>Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="#">Apple Retail Store</a>, or find a <a href="#">reseller</a>.</p>
     <nav>
       <a href="#">Site Map</a>
@@ -102,7 +74,7 @@
       <a href="#"><img src="" alt="Choose your country or region"/></a>
     </nav>
   </section>
-  <section>
+  <section id="footer-bottom">
     <p>Copyright © 2014 Apple Inc. All rights reserved.</p>
     <a href="#">Terms of Use</a>
     <a href="#">Privacy Policy</a>
