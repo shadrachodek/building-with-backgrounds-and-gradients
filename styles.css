@@ -1,7 +1,5 @@
 /* styles.css */
-
-/* ======================================== Basic Styling */
-
+/* ============================== Basic Styling */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,15 +7,167 @@
 }
 
 html {
+  color: #333;
+  font-family: 'Arimo', sans-serif;
   font-size: 10px;
 }
 
-/* ======================================== Layout */
+a {
+  color: #08c;
+}
 
+a:link, a:visited, a:active {
+  color: rgb(0, 136, 204);
+  text-decoration: none;
+}
 
+#hero, #promos {
+  width: 144rem;
+}
 
-/* ======================================== Header */
+/* ============================== Billboard Section */
+#hero {
+  background-image: url(assets/your_verse_hero.jpg);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 144rem 131rem;
+  height: 73rem;
+  margin: 0 auto;
+  position: relative;
+}
 
+#hero header {
+  background-image: url(assets/your_verse_scrim.png);
+  background-position: 0 50%;
+  background-repeat: repeat-x;
+  background-size: 2.5rem 100%;
+  padding: 6rem 0;
+  position: absolute;
+  text-align: center;
+  top: 20rem;
+  width: 100%;
+}
 
-/*background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");'*/
-/*background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_scrim_2x.png");'*/
+#hero header a {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+#hero header h1 {
+  font-size: 6.5rem;
+  letter-spacing: -0.2rem
+}
+
+#hero header h2 {
+  font-size: 3.5rem;
+  letter-spacing: -0.2rem;
+  line-height: 4rem;
+  margin: 1.5rem auto 2.5rem auto;
+  max-width: 85rem;
+}
+
+#hero header #cta {
+  font-size: 2.5rem;
+}
+
+/* ============================== Nav Bar */
+#main-nav {
+  background-color: dimgray;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0.1rem 0.2rem 0;
+  left: 23rem;
+  position: absolute;
+  top: 8rem;
+  width: 98rem;
+  z-index: 1;
+}
+
+#main-nav-links {
+  display: inline;
+  float: left;
+}
+
+#main-nav-links a {
+  border-right: 1px solid #333;
+  color: white;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 3.8rem;
+  line-height: 3.8rem;
+  text-align: center;
+  width: 10rem;
+}
+
+#main-nav-search {
+  display: inline;
+  float: left;
+}
+
+#main-nav-search input {
+  width: 100%;
+}
+
+#main-nav-search label {
+  display: none;
+}
+
+/* ============================== Promo Section */
+#promos {
+  height: 20rem;
+  margin: 0.3rem auto;
+}
+
+#promos a {
+  display: inline-block;
+  height: 100%;
+  width: 24.85%;
+}
+
+#promos a img {
+  height: 100%;
+  width: 100%;
+}
+
+/* ============================== Footer */
+footer {
+  color: rgb(110, 110, 110);
+  font-size: 1.1rem;
+  line-height: 2rem;
+  margin: 1.8rem auto 0 auto;
+  width: 98rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer nav {
+  margin-left: 2rem;
+}
+
+footer nav a,
+#footer-bottom a {
+  border-left: 1px solid rgb(204, 204, 204);
+  padding: 0 0.2rem 0 0.4rem;
+}
+
+footer nav a:first-child,
+#footer-bottom a:first-of-type {
+  border-left: none;
+  padding-left: 0;
+}
+
+#footer-top,
+#footer-top p,
+#footer-top nav,
+#footer-bottom,
+#footer-bottom p {
+  display: inline-block;
+}
+
+#footer-bottom {
+  margin-top: 0.8rem;
+}
