@@ -1,4 +1,55 @@
 /* styles.css */
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 23rem 98rem 23rem auto;
+  grid-template-rows: 8.5rem 4rem 14.5rem 21rem 25rem 20rem 8rem;
+  grid-template-areas:
+    ". . . . ."
+    ". . nav . ."
+    ". . . . ."
+    ". . header . ."
+    ". . . . ."
+    ". promos promos promos ."
+    ". . footer . .";
+}
+
+.hero {
+  grid-row: 1 / 6;
+  grid-column: 2 / 5;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: green;
+}
+
+.header {
+  grid-area: header;
+  background-color: blue;
+}
+
+.promos {
+  grid-area: promos;
+  background-color: pink;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: orange;
+}
+
+
+/* ============================================================ */
+/* ============================== OLD Styling */
+/* ============================================================ */
+
+/* old styles.css */
+
 /* ============================== Basic Styling */
 * {
   box-sizing: border-box;

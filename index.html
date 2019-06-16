@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8">
   <meta content="ie=edge" http-equiv="x-ua-compatible"/>
-  <link href="reset.css" rel="stylesheet"/>
-  <link href="styles.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100&display=swap" rel="stylesheet">
   <title>Apple</title>
 </head>
 <body>
 
-<section id="hero">
-  <nav id="main-nav">
+<main class="container">
+  <section class="hero"></section>
+  <nav class="nav">
     <div id="main-nav-links">
       <a href="#">Apple</a>
       <a href="#">Store</a>
@@ -33,8 +34,7 @@
       <!-- <div id="gn-search-icon"> -->
     </div>
   </nav>
-
-  <header>
+  <header class="header">
     <h1>
       <a href="#">What will your verse be?</a>
     </h1>
@@ -45,49 +45,47 @@
       <a href="#">Watch the “Your Verse” film and explore the stories</a>
     </p>
   </header>
-</section>
-
-<aside id="promos">
-  <a href="#">
-    <img alt="iPhone 5s. Forward thinking." src="assets/promo_iphone5s.jpg"/>
-  </a>
-  <a href="#">
-    <img alt="iPhone 5c. For the colorful." src="assets/promo_iphone5c.jpg"/>
-  </a>
-  <a href="#">
-    <img alt="Happy Birthday, Mac. Explore 30 years of innovation on the Mac." src="assets/promo_30_years.jpg"/>
-  </a>
-  <a href="#">
-    <img alt="Supplier Responsibility The latest results of our worldwide efforts." src="assets/promo_supplier_responsibility.jpg"/>
-  </a>
-</aside>
-
-<footer>
-  <section id="footer-top">
-    <p>Shop the
-      <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an
-      <a href="#">Apple Retail Store</a>, or find a
-      <a href="#">reseller</a>.
-    </p>
-    <nav>
-      <a href="#">Site Map</a>
-      <a href="#">Hot News</a>
-      <a href="#">RSS Feeds</a>
-      <a href="#">Media Info</a>
-      <a href="#">Environment</a>
-      <a href="#">Job Opportunities</a>
-      <a href="#">Contact Us</a>
-      <a href="#">
-        <img alt="Choose your country or region" src="assets/usa.png"/>
-      </a>
-    </nav>
-  </section>
-  <section id="footer-bottom">
-    <p>Copyright © 2014 Apple Inc. All rights reserved.</p>
-    <a href="#">Terms of Use</a>
-    <a href="#">Privacy Policy</a>
-  </section>
-</footer>
+  <aside class="promos">
+    <a href="#">
+      <img alt="iPhone 5s. Forward thinking." src="assets/promo_iphone5s.jpg"/>
+    </a>
+    <a href="#">
+      <img alt="iPhone 5c. For the colorful." src="assets/promo_iphone5c.jpg"/>
+    </a>
+    <a href="#">
+      <img alt="Happy Birthday, Mac. Explore 30 years of innovation on the Mac." src="assets/promo_30_years.jpg"/>
+    </a>
+    <a href="#">
+      <img alt="Supplier Responsibility The latest results of our worldwide efforts." src="assets/promo_supplier_responsibility.jpg"/>
+    </a>
+  </aside>
+  <footer class="footer">
+    <section id="footer-top">
+      <p>Shop the
+        <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an
+        <a href="#">Apple Retail Store</a>, or find a
+        <a href="#">reseller</a>.
+      </p>
+      <nav>
+        <a href="#">Site Map</a>
+        <a href="#">Hot News</a>
+        <a href="#">RSS Feeds</a>
+        <a href="#">Media Info</a>
+        <a href="#">Environment</a>
+        <a href="#">Job Opportunities</a>
+        <a href="#">Contact Us</a>
+        <a href="#">
+          <img alt="Choose your country or region" src="assets/usa.png"/>
+        </a>
+      </nav>
+    </section>
+    <section id="footer-bottom">
+      <p>Copyright © 2014 Apple Inc. All rights reserved.</p>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>
+    </section>
+  </footer>
+</main>
 
 </body>
 </html>
