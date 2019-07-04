@@ -5,8 +5,7 @@
 ### Contributors
 * [Michael McGee](https://github.com/michael-mcgee)
 ### Project Goal
-Build a copy of Apple's homepage circa March 2014.
-Example: [www.apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+Build a copy of Apple's homepage circa March 2014. [Example](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 ### Live Site
 [https://michael-mcgee.github.io/building-with-backgrounds-and-gradients](https://michael-mcgee.github.io/building-with-backgrounds-and-gradients)
 
